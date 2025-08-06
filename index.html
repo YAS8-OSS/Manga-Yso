@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>مانجا يسو - MangaYso</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-900">
+  <!-- رأس الصفحة -->
+  <header class="bg-white shadow p-4 flex justify-between items-center">
+    <h1 class="text-xl font-bold">مانجا يسو</h1>
+    <nav>
+      <a href="#" class="mx-2 text-blue-500 hover:underline">الرئيسية</a>
+      <a href="#" class="mx-2 text-blue-500 hover:underline">الأحدث</a>
+      <a href="#" class="mx-2 text-blue-500 hover:underline">من نحن</a>
+    </nav>
+  </header>
+
+  <!-- محتوى رئيسي -->
+  <main class="p-4">
+    <h2 class="text-2xl font-semibold mb-4">أحدث المانجات</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+      <!-- بطاقة مانجا -->
+      <div class="bg-white shadow rounded overflow-hidden">
+        <img src="https://via.placeholder.com/300x400?text=Manga+Cover" alt="غلاف المانجا" class="w-full">
+        <div class="p-4">
+          <h3 class="text-lg font-bold mb-2">اسم المانجا</h3>
+          <p class="text-sm text-gray-600">وصف مختصر للمانجا لجذب القراء وتحفيزهم على القراءة.</p>
+          <a href="#" class="mt-2 inline-block text-blue-500 hover:underline">قراءة الفصول</a>
+        </div>
+      </div>
+      <!-- يمكنك تكرار البطاقة لفصول إضافية -->
+    </div>
+  </main>
+
+  <!-- تذييل -->
+  <footer class="bg-white shadow mt-8 p-4 text-center text-sm">
+    &copy; 2025 مانجا يسو - جميع الحقوق محفوظة
+  </footer>
+</body>
+</html>
